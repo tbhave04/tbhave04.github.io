@@ -1,0 +1,33 @@
+
+:root{
+    --maincolor:#EDC2D8FF;
+    --hover: #8ABAD3FF;
+}
+body{
+    background-color:var(--maincolor);
+}
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    background-color:var(--maincolor);
+    text-align: center;
+}
+
+li.navbar{
+    display:inline;
+}
+
+li a {
+    display:inline-block;
+    color:#FCF6F5FF;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+  }
+li a:hover{
+    background-color:var(--hover);
+    border-radius:15px;
+}
