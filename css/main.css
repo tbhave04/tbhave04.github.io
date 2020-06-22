@@ -14,6 +14,11 @@
     background-size: cover;
 }
 
+.fullscreen{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
 body{
     background-color:var(--backgroundcolor);
     height:100%;
@@ -56,6 +61,7 @@ h1.header{
     text-align: center;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    clear:left;
 }
 div.aboutdescription{
     display:block;
@@ -98,5 +104,9 @@ strong.aboutfacts{
 
 div.about{
 
+}
+
+hr.header{
+    max-width: 900px;
 }
 
