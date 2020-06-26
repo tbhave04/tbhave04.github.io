@@ -1,5 +1,6 @@
 :root{
-    --headertext:#8ABAD3FF;
+    --headertext:#66FCF1;
+    --activitybackground:white;
 }
 
 div.activities{
@@ -25,8 +26,14 @@ p.activitydescription{
     font-family: Georgia, 'Times New Roman', Times, serif;
     max-width: 500px;
     line-height: 200%;
+    color:black;
 }
 
 hr.break{
     width:0px;
+}
+
+#activities{
+    background-color:var(--activitybackground);
+    margin-left:0;
 }
